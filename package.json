@@ -1,0 +1,28 @@
+{
+  "name": "visio-api",
+  "version": "1.0.0",
+  "main": "script.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.1",
+    "clarifai-nodejs-grpc": "^8.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt-nodejs": "^0.0.31",
+    "@types/node": "^18.8.5"
+  }
+}
